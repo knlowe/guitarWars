@@ -3,7 +3,7 @@
   <h2>Guitar Wars - Add Your High Score</h2>
 
 <?php
-  require_once('appvars.php');
+  require_once('appvars.php'); //like an include
   require_once('connectvars.php');
 
   if (isset($_POST['submit'])) {
